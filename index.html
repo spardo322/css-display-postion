@@ -1,9 +1,89 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
- 
-<body>
-  <h1>Loud Nomad</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Position & Display</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Cheat Sheet</h1>
+        </header>
+        <div>
+            <h2>Position & Display</h2>
+        </div>
+        <div>
+            <h3>Property: Position</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Value</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="atri">Static</td>
+                        <td>Default position where the elements follow the flow of html</td>
+                    </tr>
+                    <tr>
+                        <td class="atri">Relative</td>
+                        <td>Element is relative to it's initial position and can be off set with properties like: Top, right, etc.</td>
+                    </tr>
+                    <tr>
+                        <td class="atri">Absolute</td>
+                        <td>Element is completly removed from the html flow and It's position relative to the closest ancestor element. It can be off set with direction properties.</td>
+                    </tr>
+                    <tr>
+                        <td class="atri">Fixed</td>
+                        <td>Element is position relative to the viewport and it will keep its position regarless of scrolling. Direction properties can off set its postion.</td>
+                    </tr>
+                    <tr>
+                        <td class="atri">Sticky</td>
+                        <td>Element is positioned based on the user's scroll position. Sticky elements toggle between relative and fixed position. One must establish a direction propertie for the element to stick. </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h3>Property: Display</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Value</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="atri">In-line</td>
+                        <td>Element is able to share the same line with other elemnts. width and height will have no effect.</td>
+                    </tr>
+                    <tr>
+                        <td class="atri">Block</td>
+                        <td>Element is display as a block and it will take the full width of the parent container.</td>
+                    </tr>
+                    <tr>
+                        <td class="atri">In-line Block</td>
+                        <td>Element will be displayed as an in-line but will be able to share horizontal space with other elements. Widht and and height can be defined.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+            
+       
+        
+
+
+        
+    </body>
 </html>
